@@ -5,9 +5,9 @@ O projeto tem a função de treinar javaScript, fazendo um site que fará com qu
 O projeto possui uma interface simples, porém funcional e intuitiva. No projeto é possível ver uma caixa aonde você pode digitar um valor númerico, ou apenas selecionar um com os botões ao lado. Mais abaixo á um caixa aonde você pode selecionar um tipo de moeda, e um pouco abaixo pode selecionar também as mesmas moedas. Abaixo dessas caixas possui 3 botões, um escrito "Trocar moedas" aonde caso você clique, ele inverte as moedas selecionadas, o botão "Apagar" que ira apagar o número digitado e por último o botão "Converter", que irá dizer a diferença de valores entre as duas moedas selecionadas.
 ![gif](img/grav.gif)
 
-## Const LimparFormulario
-![foto](img/limparF.png)
-É utilizado uma "const" que tem a função de apagar os elementos já utilizados.
+## Valores/ Moedas
+![foto](img/valorM.png)
+Aqui foi selecionado as moedas e a diferencição que uma tem sobre a outra.
 
 ## Const Enumero
 ![foto](img/apNumeros.png)
