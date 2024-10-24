@@ -8,28 +8,23 @@ const exchangeRates = {
     CAD: { USD: 0.72, EUR: 0.67, BRL: 4.09, GBP: 0.56, JPY: 108.64, AUD: 1.08, CAD: 1 },
     AUD: { USD: 0.67, EUR: 0.62, BRL: 3.79, GBP: 0.51, JPY: 100.62, CAD: 0.93, AUD: 1 }
 };
-// Adiciona um ouvinte de eventos para o formulário de conversão
+// Essa área é reponsavél por fazer a troca de valores e conversão de um valor para outro 
 document.getElementById('currency-form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Impede o comportamento padrão do formulário
-
-    // Obtém os valores dos campos de entrada
+    event.preventDefault();
+    //Pega o valor dos campos de entrada
     const amount = parseFloat(document.getElementById('amount').value);
     const fromCurrency = document.getElementById('from-currency').value;
     const toCurrency = document.getElementById('to-currency').value;
-
     // Obtém a taxa de câmbio correspondente
     const conversionRate = exchangeRates[fromCurrency][toCurrency];
-
     // Realiza a conversão
     const convertedAmount = (amount * conversionRate).toFixed(2);
-
-    // Exibe o resultado
+    // Exibe o resultado na caixa de resultado
     document.getElementById('result').textContent = 
         `${amount} ${fromCurrency} = ${convertedAmount} ${toCurrency}`;
 });
-// Adiciona um ouvinte de eventos para o botão de redefinição
+// Essa sesão é responsável por fazer a limpeza do valor quando se clica no botão "Limpar"
 document.getElementById('reset').addEventListener('click', function() {
-    // Limpa os campos de entrada e o resultado
     document.getElementById('amount').value = '';
     document.getElementById('from-currency').selectedIndex = 0;
     document.getElementById('to-currency').selectedIndex = 0;
