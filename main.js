@@ -30,3 +30,15 @@ document.getElementById('reset').addEventListener('click', function() {
     document.getElementById('to-currency').selectedIndex = 0;
     document.getElementById('result').textContent = '';
 });
+// Adiciona um ouvinte de eventos para o botão de troca de moedas
+document.getElementById('swap-currencies').addEventListener('click', function() {
+    // Obtém os valores selecionados das moedas
+    const fromCurrencySelect = document.getElementById('from-currency');
+    const toCurrencySelect = document.getElementById('to-currency');   
+
+
+    // Troca os valores selecionados
+    const temp = fromCurrencySelect.value;
+    fromCurrencySelect.value = toCurrencySelect.value;
+    toCurrencySelect.value = temp;
+});
