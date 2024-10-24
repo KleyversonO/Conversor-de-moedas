@@ -27,3 +27,11 @@ document.getElementById('currency-form').addEventListener('submit', function(eve
     document.getElementById('result').textContent = 
         `${amount} ${fromCurrency} = ${convertedAmount} ${toCurrency}`;
 });
+// Adiciona um ouvinte de eventos para o botão de redefinição
+document.getElementById('reset').addEventListener('click', function() {
+    // Limpa os campos de entrada e o resultado
+    document.getElementById('amount').value = '';
+    document.getElementById('from-currency').selectedIndex = 0;
+    document.getElementById('to-currency').selectedIndex = 0;
+    document.getElementById('result').textContent = '';
+});
