@@ -16,6 +16,13 @@ Fonte: https://www.investopedia.com/terms/c/constantcurrencies.asp#:~:text=Const
 ## Conversão e conclusão
 ![foto](img/conversao.png)
 Aqui é utilizado uma sequência de "Const" e outros códigos que como resultado irão fazer a conversão de uma moeda da forma correta e esperada. E no final do código é possível ver uma parte que tem a função de realizar a ação da conversão e mostra lá.
+* getElementById: Tem a função de pegar o valor de uma Id.
+* Const: A declaração const cria uma variável cujo o valor é fixo, ou seja, uma constante somente leitura. Isso não significa que o valor é imutável, apenas que a variável constante não pode ser alterada ou retribuída. Nesse caso são utilizados diferentes "Const".
+* addEventListener: Registra uma única espera de evento em um único alvo. O alvo do evento pode ser um único elemento em um documento, o documento em si, uma janela, ou um XMLHttpRequest.
+<br>
+Fonte:https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementById
+https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/const
 
 ## Limpar formulário
 ![foto](img/limpa.png)
