@@ -9,9 +9,9 @@ O projeto possui uma interface simples, porém funcional e intuitiva. No projeto
 ![foto](img/valorM.png)
 Aqui foi selecionado as moedas e a diferenciações que uma tem sobre a outra.
 
-## Conversão
+## Conversão e conclusão
 ![foto](img/conversao.png)
-Aqui é utilizado uma sequência de "Const" e outros códigos que como resultado irão fazer a conversão de uma moeda da forma correta e esperada.
+Aqui é utilizado uma sequência de "Const" e outros códigos que como resultado irão fazer a conversão de uma moeda da forma correta e esperada. E no final do código é possível ver uma parte que tem a função de realizar a ação da conversão e mostra lá.
 
 ## Limpar
 ![foto](img/limpa.png)
