@@ -9,17 +9,20 @@ O projeto possui uma interface simples, porém funcional e intuitiva. No projeto
 ![foto](img/valorM.png)
 Aqui foi selecionado as moedas e a diferenciações que uma tem sobre a outra.
 
+* const exchangeRates: É uma função que calcula a taxa de câmbio usadas e elimina o efeito ao calcular números de desempenho financeiro.
+Fonte: https://www.investopedia.com/terms/c/constantcurrencies.asp#:~:text=Constant%20currencies%20are%20exchange%20rates,with%20optional%2C%20constant%20currency%20numbers.
+
 ## Conversão e conclusão
 ![foto](img/conversao.png)
 Aqui é utilizado uma sequência de "Const" e outros códigos que como resultado irão fazer a conversão de uma moeda da forma correta e esperada. E no final do código é possível ver uma parte que tem a função de realizar a ação da conversão e mostra lá.
 
-## Limpar
+## Limpar formulário
 ![foto](img/limpa.png)
 Aqui é usado um código simples que de forma simplificada quando você clica no botão de "Limpar" ele reconhece que tem que limpar as caixas que foi comandado no código.
 
-## Const preencherFormulario
-![foto](img/preencheCampos.png)
-Tem a função de preencher campos relacionados ao CEP
+## Trocar valores.
+![foto](img/troca.png)
+Aqui é possível ver a parte do código para o botão de "Trocar moedas". E de forma simples esse código tem a função de quando clicar no botão, os dois valores serão invertidos.
 
 
 ## Consumo API
