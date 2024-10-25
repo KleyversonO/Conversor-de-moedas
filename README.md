@@ -35,24 +35,14 @@ Aqui é usado um código simples que de forma simplificada quando você clica no
 Aqui é possível ver a parte do código para o botão de "Trocar moedas". E de forma simples esse código tem a função de quando clicar no botão, os dois valores serão invertidos.
 
 
-## Consumo API
-![foto](img/consumo.png)
-* "assync" é uma função que irá ser usada de forma combinada com o "await", que significa que ela irá suspender o método de chamada, e transferir o controle ao seu chamador, até que a tarefa esteja completa.
-
-* Const URL: Foi utilizado uma  "const" para que se use o site "ViaCep" para que ele faça parte do processo de pegar um CEP e localizar. No site é mostrado um exemplo, porém foi alterado no projeto o local aonde o CEP de exemplo é posto para um "cep.value", aonde a pessoa que utilizar o site conseguirá digitar um CEP que a própria queira, e fazer com que ela funcione de acordo com o CEP digitado.
-
-* Await: como citado antes, o "await" é um código que se usa da propriedade "assync", e nesse ponto ela estaria fazendo sua função antes citada.
-
-* hasOwnProperty: é uma propriedade que irá retornar o bolleano indicado para ver ser a propriedade é definida no próprio objeto. Se não for o caso, ela irá retornar um Else falso.
-
-* addEventListener: Ele irá registrar uma única espera de evento em um único alvo. Nesse caso fazendo com que assim que o usuário do site saia da caixa de adicionar CEP, o processo aonde ele valida o próprio e caso seja correto mostre as informações, e caso de errado, irá informar que o CEP é inválido.
-
 ## Fontes
-https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
-https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Asynchronous/Introducing
+Fonte:https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementById
+<br>
 https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
-
-
+<br>
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/const
+<br>
+https://www.investopedia.com/terms/c/constantcurrencies.asp#:~:text=Constant%20currencies%20are%20exchange%20rates,with%20optional%2C%20constant%20currency%20numbers.
 
 
 ## Tecnologias utilizadas 
