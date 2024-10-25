@@ -10,6 +10,7 @@ O projeto possui uma interface simples, porém funcional e intuitiva. No projeto
 Aqui foi selecionado as moedas e a diferenciações que uma tem sobre a outra.
 
 * const exchangeRates: É uma função que calcula a taxa de câmbio usadas e elimina o efeito ao calcular números de desempenho financeiro.
+<br>
 Fonte: https://www.investopedia.com/terms/c/constantcurrencies.asp#:~:text=Constant%20currencies%20are%20exchange%20rates,with%20optional%2C%20constant%20currency%20numbers.
 
 ## Conversão e conclusão
