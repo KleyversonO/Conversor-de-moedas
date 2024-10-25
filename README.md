@@ -7,15 +7,15 @@ O projeto possui uma interface simples, porém funcional e intuitiva. No projeto
 
 ## Valores/ Moedas
 ![foto](img/valorM.png)
-Aqui foi selecionado as moedas e a diferencição que uma tem sobre a outra.
+Aqui foi selecionado as moedas e a diferenciações que uma tem sobre a outra.
 
-## Const Enumero
-![foto](img/apNumeros.png)
-É utilizada a "const" que tem função de validar se foram utilizados apenas números.
+## Conversão
+![foto](img/conversao.png)
+Aqui é utilizado uma sequência de "Const" e outros códigos que como resultado irão fazer a conversão de uma moeda da forma correta e esperada.
 
-## Const cepValido
-![foto](img/quantDigitos.png)
-Código com a função de verificar se o que foi digitado tem apenas 8 digitos
+## Limpar
+![foto](img/limpa.png)
+Aqui é usado um código simples que de forma simplificada quando você clica no botão de "Limpar" ele reconhece que tem que limpar as caixas que foi comandado no código.
 
 ## Const preencherFormulario
 ![foto](img/preencheCampos.png)
