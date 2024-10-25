@@ -22,7 +22,14 @@ document.getElementById('currency-form').addEventListener('submit', function(eve
     // Exibe o resultado na caixa de resultado
     document.getElementById('result').textContent = 
         `${amount} ${fromCurrency} = ${convertedAmount} ${toCurrency}`;
+        
+    // Validate the input amount
+    if (amount <= 0) {
+        alert("Por favor, coloque um valor válido.");
+        return;
+    }
 });
+
 // Essa sesão é responsável por fazer a limpeza do valor quando se clica no botão "Limpar"
 document.getElementById('reset').addEventListener('click', function() {
     document.getElementById('amount').value = '';
