@@ -21,9 +21,9 @@ Aqui é utilizado uma sequência de "Const" e outros códigos que como resultado
 * addEventListener: Registra uma única espera de evento em um único alvo. O alvo do evento pode ser um único elemento em um documento, o documento em si, uma janela, ou um XMLHttpRequest.
 <br>
 Fonte:https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementById
-
+<br>
 https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
-
+<br>
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/const
 
 ## Limpar formulário
