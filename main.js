@@ -43,7 +43,7 @@ document.getElementById('swap-currencies').addEventListener('click', function() 
     const fromCurrencySelect = document.getElementById('from-currency');
     const toCurrencySelect = document.getElementById('to-currency');   
 
-
+ 
     // Troca os valores selecionados
     const temp = fromCurrencySelect.value;
     fromCurrencySelect.value = toCurrencySelect.value;
